@@ -5,11 +5,9 @@ public class App {
 	
 	public void addData(String str) {
 		
-		System.out.println("this is git demo app");
-		
 		System.out.println(str);
 		
-		if(str.equals("java")) {
+		if(str.equals(Constant.DATA_TYPE)) {
 			System.out.println("welcome to git");
 		}
 	}
