@@ -8,6 +8,10 @@ public class App {
 		System.out.println("this is git demo app");
 		
 		System.out.println(str);
+		
+		if(str.equals("java")) {
+			System.out.println("welcome to git");
+		}
 	}
 	public static void main(String[] args) {
 		
